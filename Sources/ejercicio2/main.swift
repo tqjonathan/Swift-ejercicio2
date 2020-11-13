@@ -16,6 +16,7 @@ let code = [
 var line = CommandLine.arguments
 
 
+// convierte los elemetos dl array en un unico string
 func arg2String(_ argv: [String]) -> String {
     var string = ""
     for i in line[2...] {
@@ -24,6 +25,7 @@ func arg2String(_ argv: [String]) -> String {
     return string
 }
 
+// codifica el string
 func encode(_ string: String) -> String {
     var codedString = ""
     for char in string {
