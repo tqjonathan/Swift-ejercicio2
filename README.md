@@ -1,3 +1,3 @@
 # ejercicio2
 
-A description of this package.
+Codificacion o decodificacion de un string pasado como parametros: decode o encode + string
